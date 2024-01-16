@@ -1,31 +1,31 @@
-:root{
-    --bool-white:#FFFFFF;
-    --bool-grey:#F6F8F9;
-    --bool-azure:#47ADF1;
-    --bool-purple:#9C72E4;
-    --bool-orange:#F29E33;
-    --bool-green:#64C0A9;
-    --bool-pink:#D863A1;
-    --bool-yellow:#B0C926;
+:root {
+    --bool-white: #FFFFFF;
+    --bool-grey: #F6F8F9;
+    --bool-azure: #47ADF1;
+    --bool-purple: #9C72E4;
+    --bool-orange: #F29E33;
+    --bool-green: #64C0A9;
+    --bool-pink: #D863A1;
+    --bool-yellow: #B0C926;
 }
 
-#body_header{
+#body_header {
     background-color: var(--bool-white);
 }
 
-#logo_bh{
+#logo_bh {
     margin-left: 20px;
     margin-top: 10px;
 }
 
-#text_bh{
-    font-family: 'Roboto';
+#text_bh {
     font-weight: bolder;
     font-size: 40px;
 }
 
 
 body {
+    font-family: 'Roboto';
     background-color: var(--bool-grey);
     margin: 0%;
 }
@@ -41,11 +41,12 @@ main {
     padding-bottom: 20px;
 }
 
-#main_header{
+#main_header {
 
 }
 
-button{
+button {
+    border: 2px solid grey;
     font-family: 'Roboto';
     font-size: small;
     font-weight: bolder;
@@ -53,13 +54,13 @@ button{
     border-color: var(--bool-grey);
 }
 
-#add_task{
+#add_task {
     background-color: var(--bool-azure);
     color: var(--bool-white);
     padding: 6px 10px;
 }
 
-#add_section{
+#add_section {
     background-color: var(--bool-white);
     color: var(--bool-grey);
     padding: 6px 10px;
