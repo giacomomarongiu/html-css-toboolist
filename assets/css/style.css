@@ -1,3 +1,4 @@
+/*Colori campionati*/
 :root {
     --bool-white: #FFFFFF;
     --bool-grey: #F6F8F9;
@@ -8,6 +9,8 @@
     --bool-pink: #D863A1;
     --bool-yellow: #B0C926;
 }
+
+/*Gestione Header del body*/
 
 #body_header {
     background-color: var(--bool-white);
@@ -24,6 +27,8 @@
 }
 
 
+
+/*Gestione sfondi e colori*/
 body {
     font-family: 'Roboto';
     font-weight: 600;
@@ -40,12 +45,10 @@ main {
     padding-left: 40px;
     padding-top: 15px;
     padding-bottom: 20px;
+    border-radius: 5px;
 }
 
-#main_header {
-
-}
-
+/*Bottoni vari*/
 button{
     font-size: 10px;
     font-weight: bold;
@@ -101,7 +104,3 @@ button{
     padding: 6px 10px;
 }
 
-
-li{
-    padding-top: 10px;
-}
