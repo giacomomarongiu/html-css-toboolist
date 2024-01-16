@@ -26,6 +26,7 @@
 
 body {
     font-family: 'Roboto';
+    font-weight: 600;
     background-color: var(--bool-grey);
     margin: 0%;
 }
@@ -45,13 +46,47 @@ main {
 
 }
 
-button {
+button{
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px;
+}
+
+
+.up {
     border: 2px solid grey;
     font-family: 'Roboto';
     font-size: small;
     font-weight: bolder;
     border-radius: 6px;
     border-color: var(--bool-grey);
+}
+
+.edi{
+    background-color: var(--bool-azure);
+}
+
+.q{
+    background-color: var(--bool-purple);
+}
+
+.rec{
+    background-color: var(--bool-green);
+}
+
+.mob{
+    background-color: var(--bool-orange);
+}
+
+.web{
+    background-color: var(--bool-pink);
+}
+
+.sales{
+    background-color: #B0C926;
 }
 
 #add_task {
@@ -64,4 +99,9 @@ button {
     background-color: var(--bool-white);
     color: var(--bool-grey);
     padding: 6px 10px;
+}
+
+
+li{
+    padding-top: 10px;
 }
