@@ -9,6 +9,23 @@
     --bool-yellow:#B0C926;
 }
 
-body{
+#body_header{
+    background-color: var(--bool-white);
+}
+
+#logo_bh{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#text_bh{
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+body {
     background-color: var(--bool-grey);
+    margin: 0%;
 }
