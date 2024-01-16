@@ -1,0 +1,14 @@
+:root{
+    --bool-white:#FFFFFF;
+    --bool-grey:#F6F8F9;
+    --bool-azure:#47ADF1;
+    --bool-purple:#9C72E4;
+    --bool-orange:#F29E33;
+    --bool-green:#64C0A9;
+    --bool-pink:#D863A1;
+    --bool-yellow:#B0C926;
+}
+
+body{
+    background-color: var(--bool-grey);
+}
